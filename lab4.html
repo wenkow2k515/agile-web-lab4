@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en"></html>
+<head>
+    <title>lab4</title>
+    <link rel = "stylesheet" type = "text/css" href = "lab4.css">
+    <script src = "lab4.js"></script>
+    
+</head>
+<body>
+    <div id = "hint">hint</div>
+    <div id = "hintc"></div>
+    <div class = "wordle">
+        <h1>the wordle</h1>
+        <input type = "text" id = "guess"><br>
+        <button onclick = "wordle()">check</button>
+        <p id = "answer"></p>
+    </div>
+    <script>
+        addFinder();
+    </script>
+    
+</body>
+
+<script>
+    const hint1 = document.getElementById("hint");
+    hint1.addEventListener("mouseover", hint, false);
+</script> 
