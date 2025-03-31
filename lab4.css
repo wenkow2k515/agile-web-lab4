@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+.wordle {
+    text-align: center;
+    text-transform: capitalize;
+}
+#answer {
+    color: darkgoldenrod;
+}
+body {
+    background-color: lightgreen;
+}
+
+#hint {
+    margin: 0 auto;
+}
+
+#hint {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
